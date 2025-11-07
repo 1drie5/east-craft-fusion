@@ -7,9 +7,11 @@ env/
 # Ignore dataset folders
 archive/
 
-# Ignore PyTorch checkpoints
+# Ignore model files
+*.h5
 *.pth
 *.pt
+*.pb
 
 # Ignore Python cache files
 __pycache__/
